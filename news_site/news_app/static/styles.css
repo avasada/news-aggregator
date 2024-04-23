@@ -1,0 +1,53 @@
+body {
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark gray text color */
+}
+
+.jumbotron {
+    background-color: #007bff; /* Bootstrap primary blue */
+    color: white; /* White text color */
+}
+
+.jumbotron h1 {
+    font-size: 3rem; /* Larger font size for the main heading */
+}
+
+.btn-success {
+    background-color: #28a745; /* Bootstrap success green */
+    border-color: #28a745; /* Consistent border color */
+}
+
+.card {
+    background-color: #fff; /* White background for cards */
+    border: 1px solid #ddd; /* Light gray border for cards */
+}
+
+.card-title a {
+    color: #007bff; /* Bootstrap primary blue for card title links */
+    text-decoration: none; /* No underline */
+}
+
+.card-title a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+.card-img-top {
+    width: 100%; /* Full-width images */
+    height: auto; /* Auto height to maintain aspect ratio */
+    border-bottom: 1px solid #ddd; /* Separates image from card body */
+}
+
+.container {
+    padding-top: 20px; /* Space above the container */
+}
+
+.custom-button {
+    font-size: 50px;
+    color: blue;
+    padding: 10px 20px 10px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: capitalize;
+    padding: 10px 20px 10px 30px;
+}
